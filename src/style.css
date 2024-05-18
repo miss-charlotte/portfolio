@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #b3001b;
+  --secondary-color: #ffba00;
+  --headings-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
 body {
   font-family: "Poppins";
   overflow: hidden;
@@ -5,7 +12,7 @@ body {
 
 .d-flex {
   background: #ffd43b;
-  font-family: "Playfair Display", serif;
+
   font-weight: 900;
 }
 
@@ -29,17 +36,17 @@ p {
 }
 
 .content h1 {
-  font-family: "Playfair Display", serif;
-  color: #000;
+  font-family: var(--headings-font-family);
+  color: var(--secondary-color);
   font-weight: bold;
-  font-size: 46px;
+  font-size: 50px;
   margin-bottom: 45px;
 }
 
 .btn-contact {
-  background: #01c38d;
+  background: var(--primary-color);
   padding: 15px 45px;
   color: #fff;
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
 }
