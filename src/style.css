@@ -1,10 +1,45 @@
+body {
+  font-family: "Poppins";
+  overflow: hidden;
+}
+
 .d-flex {
   background: #ffd43b;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: 900;
 }
 
 p {
   font-family: "Poppins";
   font-weight: 400;
+}
+
+.hero {
+  background-image: url(images/charlotte.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* width: 100vw;
+  height: 100vh; */
+}
+
+.hero .content {
+  padding: 150px;
+  text-align: center;
+}
+
+.content h1 {
+  font-family: "Playfair Display", serif;
+  color: #000;
+  font-weight: bold;
+  font-size: 46px;
+  margin-bottom: 45px;
+}
+
+.btn-contact {
+  background: #01c38d;
+  padding: 15px 45px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
