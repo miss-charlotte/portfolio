@@ -52,6 +52,10 @@ h6 {
   font-family: var(--default-font-family);
   font-size: 14px;
 }
+.img-fluid {
+  padding: 10px;
+  background: var(--secondary-color);
+}
 
 @media (max-width: 960px) {
   .content h1 {
