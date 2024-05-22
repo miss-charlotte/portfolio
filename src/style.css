@@ -72,16 +72,16 @@ h6 {
     font-size: 34px;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
 
-  .about-section-content {
+  .content-inner {
     margin-bottom: 50px;
   }
 
-  .about-section-content .btn-branding {
+  .content-inner .btn-branding {
     margin-top: 50px;
   }
 
@@ -97,17 +97,21 @@ h6 {
   }
 }
 
-.about-section {
+.content-container {
   padding: 140px 0;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 48px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 16px;
   font-family: var(--default-font-family);
+}
+
+.content-inner h1 {
+  color: #000;
 }
 
 /* .about-section-content {
