@@ -41,6 +41,7 @@ h6 {
   padding: 15px 20px;
   font-family: var(--default-font-family);
   font-size: 14px;
+  text-align: none;
 }
 
 .second-section {
@@ -70,4 +71,45 @@ h6 {
   .content h1 {
     font-size: 34px;
   }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+
+  .about-section-content {
+    margin-bottom: 50px;
+  }
+
+  .about-section-content .btn-branding {
+    margin-top: 50px;
+  }
+
+  .certificates .row {
+    display: block;
+  }
+
+  .certificates .row .col-4  .btn-branding {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 10px auto;
+  }
 }
+
+.about-section {
+  padding: 140px 0;
+}
+
+.about-section h1 {
+  font-size: 48px;
+}
+
+.about-section h2 {
+  font-size: 16px;
+  font-family: var(--default-font-family);
+}
+
+/* .about-section-content {
+  margin: 30px;
+} */
