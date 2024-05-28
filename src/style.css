@@ -46,7 +46,7 @@ h6 {
 
 .second-section {
   background: #e8f0f4;
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
 .container h2 {
@@ -60,6 +60,7 @@ h6 {
 .img-fluid {
   padding: 10px;
   background: var(--secondary-color);
+  max-width: 100%;
 }
 
 .content-container {
